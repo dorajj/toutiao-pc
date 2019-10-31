@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    toutiao <el-button type="primary">主要按钮</el-button>
+    <!-- 一级路由的容器 -->
+    <router-view />
   </div>
 </template>
 
 <script>
-
 export default {
   name: 'app'
 }
